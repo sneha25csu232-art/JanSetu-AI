@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Premium Hackathon SEO & Meta Tags -->
+    <meta name="description" content="JanSetu AI - Empowering Citizens. Simplifying Governance.">
+    <meta name="theme-color" content="#0B1F33">
+    <meta property="og:title" content="JanSetu AI - Civic Tech Platform">
+    
+    <title>JanSetu AI - Empowering Citizens. Simplifying Governance.</title>
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Premium Preloader -->
+    <div id="page-loader" class="page-loader">
+        <div class="loader-spinner"></div>
+        <h3 class="text-gradient" data-en="Loading JanSetu AI..." data-hi="जनसेतु एआई लोड हो रहा है...">Loading JanSetu AI...</h3>
+    </div>
+
+    <!-- Toast Notifications Container -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <!-- Apple-style Glassmorphism Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo" aria-label="JanSetu AI Home">
+                <div class="logo-icon"><i class="fa-solid fa-bridge"></i></div>
+                <span class="logo-text">JanSetu <span class="highlight">AI</span></span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link active" data-en="Platform" data-hi="मंच">Platform</a>
+                <a href="#schemes" class="nav-link" data-en="Schemes" data-hi="योजनाएं">Schemes</a>
+                <a href="#simplifier" class="nav-link" data-en="AI Simplifier" data-hi="दस्तावेज़ सरलकर्ता">AI Simplifier</a>
+                <a href="#complaints" class="nav-link" data-en="Grievances" data-hi="शिकायतें">Grievances</a>
+                <a href="#admin-panel" class="nav-link admin-badge-nav" data-en="Authority Portal" data-hi="प्राधिकरण पोर्टल">Authority Portal</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle-btn" class="icon-btn" aria-label="Toggle Dark Mode" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="lang-toggle-btn" class="lang-btn" aria-label="Toggle Language">
+                    <i class="fa-solid fa-globe"></i> <span id="lang-text">हिन्दी</span>
+                </button>
+                <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section - Stunning SaaS Layout -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-bolt"></i> <span data-en="Next-Gen Civic Tech Platform" data-hi="नेक्स्ट-जेन सिविक टेक प्लेटफॉर्म">Next-Gen Civic Tech Platform</span>
+                </div>
+                
+                <h1 class="hero-title" data-en="Empowering Citizens. Simplifying Governance." data-hi="नागरिकों का सशक्तिकरण। शासन का सरलीकरण।">Empowering Citizens.<br>Simplifying Governance.</h1>
+                
+                <p class="hero-subtitle" data-en="One intelligent platform to discover opportunities, navigate public services, and make every voice count." data-hi="एक बुद्धिमान मंच अवसरों को खोजने, सार्वजनिक सेवाओं को नेविगेट करने और हर आवाज को महत्वपूर्ण बनाने के लिए।">
+                    One intelligent platform to discover opportunities, navigate public services, and make every voice count.
+                </p>
+                
+                <div class="hero-cta-group">
+                    <a href="#schemes" class="btn btn-primary">
+                        <span data-en="Get Started" data-hi="शुरू करें">Get Started</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#complaints" class="btn btn-secondary">
+                        <i class="fa-solid fa-shield-halved"></i> <span data-en="Report an Issue" data-hi="समस्या की रिपोर्ट करें">Report an Issue</span>
+                    </a>
+                </div>
+
+                <!-- Trust Indicators -->
+                <p style="color: rgba(255,255,255,0.4); font-size: 0.85rem; margin-bottom: 3rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;" data-en="Built for the Better Communities Hackathon 2026" data-hi="बेहतर समुदाय हैकाथॉन 2026 के लिए निर्मित">Built for the Better Communities Hackathon 2026</p>
+
+                <!-- Embedded Dashboard Preview / Stats -->
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <h3>98%</h3>
+                        <p data-en="Accuracy in Match" data-hi="मिलान में सटीकता">Accuracy in Match</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3><i class="fa-solid fa-bolt" style="color: var(--primary-bright); font-size: 1.8rem;"></i></h3>
+                        <p data-en="Real-time Tracking" data-hi="रीयल-टाइम ट्रैकिंग">Real-time Tracking</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>24/7</h3>
+                        <p data-en="Multilingual Support" data-hi="बहुभाषी समर्थन">Multilingual Support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Feature Cards - Linear/Stripe Aesthetics -->
+        <section class="features-overview">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon bg-blue"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                        <h3 data-en="Smart Scheme Finder" data-hi="स्मार्ट योजना खोजक">Smart Scheme Finder</h3>
+                        <p data-en="Our matching engine filters through state and central policies instantly based on your exact demographic profile." data-hi="हमारा मिलान इंजन आपके जनसांख्यिकीय प्रोफाइल के आधार पर नीतियों को तुरंत फ़िल्टर करता है।">Our matching engine filters through state and central policies instantly based on your exact demographic profile.</p>
+                        <a href="#schemes" class="feature-link"><span data-en="Explore feature" data-hi="सुविधा देखें">Explore feature</span> &rarr;</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon bg-green"><i class="fa-solid fa-file-shield"></i></div>
+                        <h3 data-en="Document Simplifier" data-hi="दस्तावेज़ सरलकर्ता">Document Simplifier</h3>
+                        <p data-en="Instantly translate dense bureaucratic notices and legal jargon into plain, actionable step-by-step checklists." data-hi="जटिल सरकारी नोटिसों और कानूनी शब्दावली को आसान चेकलिस्ट में बदलें।">Instantly translate dense bureaucratic notices and legal jargon into plain, actionable step-by-step checklists.</p>
+                        <a href="#simplifier" class="feature-link"><span data-en="Simplify docs" data-hi="दस्तावेज़ सरल करें">Simplify docs</span> &rarr;</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon bg-orange"><i class="fa-solid fa-timeline"></i></div>
+                        <h3 data-en="Civic Complaint Portal" data-hi="नागरिक शिकायत पोर्टल">Civic Complaint Portal</h3>
+                        <p data-en="Submit infrastructure issues and track their progress through a transparent, accountability-driven timeline." data-hi="बुनियादी ढांचे के मुद्दों को सबमिट करें और एक पारदर्शी समयरेखा के माध्यम से प्रगति को ट्रैक करें।">Submit infrastructure issues and track their progress through a transparent, accountability-driven timeline.</p>
+                        <a href="#complaints" class="feature-link"><span data-en="Track progress" data-hi="प्रगति ट्रैक करें">Track progress</span> &rarr;</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon bg-purple"><i class="fa-solid fa-language"></i></div>
+                        <h3 data-en="Multilingual Assistance" data-hi="बहुभाषी सहायता">Multilingual Assistance</h3>
+                        <p data-en="Break language barriers. Access the entire platform and interactive guidance in both English and Hindi seamlessly." data-hi="भाषा की बाधाओं को तोड़ें। अंग्रेजी और हिंदी दोनों में संपूर्ण मंच तक पहुंचें।">Break language barriers. Access the entire platform and interactive guidance in both English and Hindi seamlessly.</p>
+                        <a href="#" id="open-chatbot-link" class="feature-link"><span data-en="Try it out" data-hi="इसे आज़माएं">Try it out</span> &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Smart Scheme Finder Section -->
+        <section id="schemes" class="section-block bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge"><i class="fa-solid fa-database"></i> <span data-en="Data-Driven Policy Match" data-hi="डेटा-संचालित नीति मिलान">Data-Driven Policy Match</span></span>
+                    <h2 data-en="Smart Government Scheme Finder" data-hi="स्मार्ट सरकारी योजना खोजक">Smart Government Scheme Finder</h2>
+                    <p data-en="Input your demographic data to discover verified welfare schemes and subsidies tailored for you." data-hi="आपके लिए तैयार की गई सत्यापित कल्याणकारी योजनाओं की खोज करने के लिए अपना डेटा इनपुट करें।">Input your demographic data to discover verified welfare schemes and subsidies tailored for you.</p>
+                </div>
+
+                <div class="scheme-wrapper">
+                    <!-- Form Card -->
+                    <div class="card form-card">
+                        <h3><i class="fa-solid fa-fingerprint" style="color: var(--primary);"></i> <span data-en="Profile Assessment" data-hi="प्रोफ़ाइल मूल्यांकन">Profile Assessment</span></h3>
+                        <form id="scheme-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="scheme-age" data-en="Age (Years)" data-hi="आयु (वर्ष)">Age (Years)</label>
+                                    <input type="number" id="scheme-age" min="1" max="120" placeholder="e.g. 25" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="scheme-gender" data-en="Gender" data-hi="लिंग">Gender</label>
+                                    <select id="scheme-gender" required>
+                                        <option value="" disabled selected data-en="Select Gender" data-hi="लिंग चुनें">Select Gender</option>
+                                        <option value="male" data-en="Male" data-hi="पुरुष">Male</option>
+                                        <option value="female" data-en="Female" data-hi="महिला">Female</option>
+                                        <option value="other" data-en="Other" data-hi="अन्य">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="scheme-occupation" data-en="Occupation" data-hi="व्यवसाय">Occupation</label>
+                                    <select id="scheme-occupation" required>
+                                        <option value="" disabled selected data-en="Select Occupation" data-hi="व्यवसाय चुनें">Select Occupation</option>
+                                        <option value="student" data-en="Student" data-hi="छात्र">Student</option>
+                                        <option value="farmer" data-en="Farmer" data-hi="किसान">Farmer</option>
+                                        <option value="entrepreneur" data-en="Business/Self-Employed" data-hi="व्यवसाय/स्व-नियोजित">Business/Self-Employed</option>
+                                        <option value="unemployed" data-en="Unemployed" data-hi="बेरोजगार">Unemployed</option>
+                                        <option value="salaried" data-en="Salaried Employee" data-hi="वेतनभोगी कर्मचारी">Salaried Employee</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="scheme-category" data-en="Category" data-hi="श्रेणी">Category</label>
+                                    <select id="scheme-category" required>
+                                        <option value="" disabled selected data-en="Select Category" data-hi="श्रेणी चुनें">Select Category</option>
+                                        <option value="general" data-en="General" data-hi="सामान्य">General</option>
+                                        <option value="obc" data-en="OBC" data-hi="अन्य पिछड़ा वर्ग (OBC)">OBC</option>
+                                        <option value="sc_st" data-en="SC / ST" data-hi="अनुसूचित जाति / जनजाति (SC/ST)">SC / ST</option>
+                                        <option value="minority" data-en="Minority" data-hi="अल्पसंख्यक">Minority</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 2rem;">
+                                <label for="scheme-income" data-en="Annual Household Income (₹)" data-hi="वार्षिक पारिवारिक आय (₹)">Annual Household Income (₹)</label>
+                                <input type="number" id="scheme-income" step="10000" placeholder="e.g. 250000" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> <span data-en="Analyze Eligibility" data-hi="पात्रता का विश्लेषण करें">Analyze Eligibility</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Results Container -->
+                    <div class="results-container">
+                        <div class="results-header">
+                            <h3><i class="fa-solid fa-layer-group" style="color: var(--accent);"></i> <span data-en="Matched Opportunities" data-hi="मिलान अवसर">Matched Opportunities</span></h3>
+                            <span id="results-count" class="badge-count">0 Found</span>
+                        </div>
+                        <div id="scheme-results" class="scheme-results-list" aria-live="polite">
+                            <div class="empty-state">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <p data-en="Awaiting data. Fill out the profile assessment to reveal your optimized scheme portfolio." data-hi="डेटा की प्रतीक्षा है। अपना पोर्टफोलियो देखने के लिए प्रोफाइल मूल्यांकन भरें।">Awaiting data. Fill out the profile assessment to reveal your optimized scheme portfolio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Document Simplifier Section -->
+        <section id="simplifier" class="section-block">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge"><i class="fa-solid fa-microchip"></i> <span data-en="Natural Language Processing" data-hi="प्राकृतिक भाषा प्रसंस्करण">Natural Language Processing</span></span>
+                    <h2 data-en="Intelligent Document Simplifier" data-hi="बुद्धिमान दस्तावेज़ सरलकर्ता">Intelligent Document Simplifier</h2>
+                    <p data-en="Bypass bureaucratic jargon. Paste official notices to generate an actionable, plain-language checklist." data-hi="नौकरशाही शब्दावली को बायपास करें। आधिकारिक नोटिस को आसान चेकलिस्ट में बदलें।">Bypass bureaucratic jargon. Paste official notices to generate an actionable, plain-language checklist.</p>
+                </div>
+
+                <div class="simplifier-grid">
+                    <div class="card">
+                        <div class="toolbar-samples">
+                            <span data-en="Load Sandbox Data:" data-hi="सैंडबॉक्स डेटा लोड करें:">Load Sandbox Data:</span>
+                            <button type="button" class="btn-chip" id="sample-tax-notice" data-en="Tax Notice" data-hi="कर नोटिस">Tax Notice</button>
+                            <button type="button" class="btn-chip" id="sample-property-notice" data-en="Mutation Policy" data-hi="नामांतरण नीति">Mutation Policy</button>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 2rem;">
+                            <label for="raw-document-text" data-en="Input Official Notice Text" data-hi="आधिकारिक नोटिस टेक्स्ट इनपुट करें">Input Official Notice Text</label>
+                            <textarea id="raw-document-text" rows="8" placeholder="Paste complex government circular, or application guidelines here..."></textarea>
+                        </div>
+                        <button id="simplify-btn" class="btn btn-primary btn-full">
+                            <i class="fa-solid fa-bolt"></i> <span data-en="Generate Summary" data-hi="सारांश उत्पन्न करें">Generate Summary</span>
+                        </button>
+                    </div>
+
+                    <div class="card output-card">
+                        <h3><i class="fa-solid fa-list-check" style="color: var(--success);"></i> <span data-en="Extracted Action Items" data-hi="निकाले गए कार्रवाई आइटम">Extracted Action Items</span></h3>
+                        <div id="simplifier-output" class="simplifier-output-box" aria-live="polite">
+                            <div class="empty-state">
+                                <i class="fa-solid fa-file-waveform"></i>
+                                <p data-en="Your plain-English extraction, deadlines, and required documentation checklist will render here." data-hi="आपकी सरल अंग्रेजी निकासी, समय सीमा और आवश्यक दस्तावेज यहाँ दिखाई देंगे।">Your plain-English extraction, deadlines, and required documentation checklist will render here.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Civic Complaints & Transparent Tracker Section -->
+        <section id="complaints" class="section-block bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge"><i class="fa-solid fa-shield-check"></i> <span data-en="Transparent Resolution" data-hi="पारदर्शी संकल्प">Transparent Resolution</span></span>
+                    <h2 data-en="Civic Accountability Portal" data-hi="नागरिक जवाबदेही पोर्टल">Civic Accountability Portal</h2>
+                    <p data-en="Report infrastructure anomalies and monitor resolution timelines with immutable tracking IDs." data-hi="बुनियादी ढांचे की विसंगतियों की रिपोर्ट करें और ट्रैकिंग आईडी के साथ निगरानी करें।">Report infrastructure anomalies and monitor resolution timelines with immutable tracking IDs.</p>
+                </div>
+
+                <div class="complaints-grid">
+                    <!-- Complaint Submission Form -->
+                    <div class="card">
+                        <h3><i class="fa-solid fa-square-plus" style="color: var(--primary);"></i> <span data-en="Create a Ticket" data-hi="एक टिकट बनाएँ">Create a Ticket</span></h3>
+                        <form id="complaint-form">
+                            <div class="form-group">
+                                <label for="comp-title" data-en="Issue Synopsis" data-hi="समस्या का सारांश">Issue Synopsis</label>
+                                <input type="text" id="comp-title" placeholder="e.g. Malfunctioning street lights on Sector 14" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="comp-category" data-en="Infrastructure Category" data-hi="बुनियादी ढांचा श्रेणी">Infrastructure Category</label>
+                                    <select id="comp-category" required>
+                                        <option value="" disabled selected data-en="Select Category" data-hi="श्रेणी चुनें">Select Category</option>
+                                        <option value="Roads & Transport" data-en="Roads & Transport" data-hi="सड़कें और परिवहन">Roads & Transport</option>
+                                        <option value="Water & Sanitation" data-en="Water & Sanitation" data-hi="जल और स्वच्छता">Water & Sanitation</option>
+                                        <option value="Power Grid" data-en="Power Grid" data-hi="पावर ग्रिड">Power Grid</option>
+                                        <option value="Public Safety" data-en="Public Safety" data-hi="सार्वजनिक सुरक्षा">Public Safety</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="comp-location" data-en="Location / Zone" data-hi="स्थान / क्षेत्र">Location / Zone</label>
+                                    <input type="text" id="comp-location" placeholder="e.g. Zone B, MG Road" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="comp-desc" data-en="Detailed Audit/Description" data-hi="विस्तृत विवरण">Detailed Audit/Description</label>
+                                <textarea id="comp-desc" rows="3" placeholder="Provide precise coordinates, landmarks, and safety severity..." required></textarea>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 2rem;">
+                                <label for="comp-citizen" data-en="Reporter Name" data-hi="रिपोर्टर का नाम">Reporter Name</label>
+                                <input type="text" id="comp-citizen" placeholder="e.g. Rajesh Kumar" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-paper-plane"></i> <span data-en="Submit to Authority" data-hi="प्राधिकरण को भेजें">Submit to Authority</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Complaint Tracking Panel with Timeline -->
+                    <div id="tracker" class="card">
+                        <div class="tracker-header" style="display:flex; flex-direction:column; align-items:flex-start;">
+                            <div style="width:100%; display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+                                <h3 style="margin-bottom:0; border:none; padding:0;"><i class="fa-solid fa-satellite-dish" style="color: var(--accent);"></i> <span data-en="Status Tracker" data-hi="स्थिति ट्रैकर">Status Tracker</span></h3>
+                            </div>
+                            
+                            <!-- Static Progress Timeline (Visual Requirement) -->
+                            <div class="timeline" style="margin-bottom: 1.5rem; width:100%; padding: 1rem; background: var(--input-bg); border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                                <div class="timeline-item active" style="margin-bottom:0.5rem;"><strong><span data-en="Submitted" data-hi="प्रस्तुत">Submitted</span>:</strong> <span style="font-size:0.8rem; color:var(--text-light);" data-en="Logged in system" data-hi="सिस्टम में लॉग इन">Logged in system</span></div>
+                                <div class="timeline-item" style="margin-bottom:0.5rem;"><strong><span data-en="In Progress" data-hi="प्रगति पर">In Progress</span>:</strong> <span style="font-size:0.8rem; color:var(--text-light);" data-en="Authority assigned" data-hi="प्राधिकरण सौंपा गया">Authority assigned</span></div>
+                                <div class="timeline-item" style="margin-bottom:0;"><strong><span data-en="Resolved" data-hi="हल हो गया">Resolved</span>:</strong> <span style="font-size:0.8rem; color:var(--text-light);" data-en="Issue closed" data-hi="मुद्दा बंद">Issue closed</span></div>
+                            </div>
+                            
+                            <div class="search-box-inline" style="width: 100%;">
+                                <input type="text" id="search-tracker-input" placeholder="Enter Ref ID (e.g. JS-1002)..." aria-label="Search by Reference ID">
+                                <button id="search-tracker-btn" class="btn btn-secondary btn-sm" aria-label="Search"><i class="fa-solid fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <div id="complaints-list-container" class="complaints-scroll-box" aria-live="polite">
+                            <!-- Populated dynamically via script.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Demo Admin Panel Section -->
+        <section id="admin-panel" class="section-block">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge badge-admin"><i class="fa-solid fa-unlock-keyhole"></i> <span data-en="Authority Dashboard Simulator" data-hi="प्राधिकरण डैशबोर्ड सिम्युलेटर">Authority Dashboard Simulator</span></span>
+                    <h2 data-en="Municipal Admin Console" data-hi="नगरपालिका एडमिन कंसोल">Municipal Admin Console</h2>
+                    <p data-en="Mock interface for authorities. Updating a status here instantly reflects in the citizen's status tracker." data-hi="अधिकारियों के लिए नकली इंटरफ़ेस। यहाँ स्थिति अपडेट करने से तुरंत नागरिक के ट्रैकर में दिखाई देता है।">Mock interface for authorities. Updating a status here instantly reflects in the citizen's status tracker.</p>
+                </div>
+
+                <div class="card admin-card">
+                    <div class="table-responsive">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th data-en="Ticket ID" data-hi="टिकट आईडी">Ticket ID</th>
+                                    <th data-en="Synopsis & Category" data-hi="सारांश और श्रेणी">Synopsis & Category</th>
+                                    <th data-en="Reporter & Zone" data-hi="रिपोर्टर और ज़ोन">Reporter & Zone</th>
+                                    <th data-en="State" data-hi="स्थिति">State</th>
+                                    <th data-en="Update Action" data-hi="कार्रवाई अपडेट करें">Update Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="admin-complaints-tbody" aria-live="polite">
+                                <!-- Populated dynamically via script.js -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Chatbot Widget (SaaS Style) -->
+    <div id="chatbot-wrapper" class="chatbot-wrapper">
+        <button id="chatbot-toggle-btn" class="chatbot-toggle-btn" aria-label="Open AI Assistant">
+            <i class="fa-solid fa-sparkles"></i>
+            <span class="chat-badge" data-en="AI" data-hi="एआई">AI</span>
+        </button>
+
+        <div id="chatbot-window" class="chatbot-window hidden">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="bot-avatar"><i class="fa-solid fa-layer-group"></i></div>
+                    <div>
+                        <h4 data-en="JanSetu Assistant" data-hi="जनसेतु सहायक">JanSetu Assistant</h4>
+                        <span class="online-status"><span class="dot"></span> <span data-en="System Online" data-hi="सिस्टम ऑनलाइन">System Online</span></span>
+                    </div>
+                </div>
+                <button id="chatbot-close-btn" class="chat-close-btn" aria-label="Close Chat"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div id="chatbot-messages" class="chat-messages" aria-live="polite">
+                <div class="message bot-message">
+                    <p data-en="Hello. I am the JanSetu AI prototype. Do you need help navigating schemes, simplifying a document, or tracking a ticket?" data-hi="नमस्ते। मैं जनसेतु एआई प्रोटोटाइप हूँ। क्या आपको योजनाओं को नेविगेट करने, दस्तावेज़ को सरल बनाने या टिकट को ट्रैक करने में मदद की आवश्यकता है?">Hello. I am the JanSetu AI prototype. Do you need help navigating schemes, simplifying a document, or tracking a ticket?</p>
+                </div>
+            </div>
+
+            <div class="chat-suggestions">
+                <button class="suggestion-chip" data-query="find schemes" data-en="Find Schemes" data-hi="योजनाएं खोजें">Find Schemes</button>
+                <button class="suggestion-chip" data-query="file complaint" data-en="File Complaint" data-hi="शिकायत दर्ज करें">File Complaint</button>
+                <button class="suggestion-chip" data-query="track status" data-en="Track Status" data-hi="स्थिति ट्रैक करें">Track Status</button>
+            </div>
+
+            <div class="chat-input-area">
+                <input type="text" id="chatbot-input" placeholder="Message assistant..." aria-label="Type your message">
+                <button id="chatbot-send-btn" class="btn-send" aria-label="Send Message"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="logo footer-logo" style="margin-bottom:1rem;">
+                    <div class="logo-icon"><i class="fa-solid fa-bridge"></i></div>
+                    <span class="logo-text">JanSetu <span class="highlight">AI</span></span>
+                </div>
+                <p data-en="Empowering citizens with accessible public services, transparent grievance redressal, and AI-driven governance platforms." data-hi="सुलभ सार्वजनिक सेवाओं, पारदर्शी शिकायत निवारण और एआई-संचालित शासन प्लेटफार्मों के साथ नागरिकों का सशक्तिकरण।">
+                    Empowering citizens with accessible public services, transparent grievance redressal, and AI-driven governance platforms.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4 data-en="Platform Maps" data-hi="प्लेटफ़ॉर्म मैप्स">Platform Maps</h4>
+                <ul>
+                    <li><a href="#hero" data-en="Dashboard" data-hi="डैशबोर्ड">Dashboard</a></li>
+                    <li><a href="#schemes" data-en="Policy Match" data-hi="नीति मिलान">Policy Match</a></li>
+                    <li><a href="#simplifier" data-en="NLP Simplifier" data-hi="एनएलपी सरलकर्ता">NLP Simplifier</a></li>
+                    <li><a href="#complaints" data-en="Civic Accountability" data-hi="नागरिक जवाबदेही">Civic Accountability</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-en="Prototype Notice" data-hi="प्रोटोटाइप सूचना">Prototype Notice</h4>
+                <p data-en="Developed exclusively for the Better Communities Hackathon. This is a fully client-side UI/UX simulation using HTML5, CSS3, and Vanilla JavaScript with LocalStorage." data-hi="बेहतर समुदाय हैकाथॉन के लिए विशेष रूप से विकसित। यह HTML5, CSS3, और LocalStorage के साथ Vanilla JavaScript का उपयोग करके पूरी तरह से क्लाइंट-साइड UI/UX सिमुलेशन है।">
+                    Developed exclusively for the Better Communities Hackathon. This is a fully client-side UI/UX simulation using HTML5, CSS3, and Vanilla JavaScript with LocalStorage.
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-en="&copy; 2026 JanSetu AI. Designed with passion for the hackathon." data-hi="&copy; 2026 जनसेतु एआई। हैकाथॉन के लिए जुनून के साथ डिज़ाइन किया गया।">&copy; 2026 JanSetu AI. Designed with passion for the hackathon.</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
